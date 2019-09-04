@@ -9,7 +9,8 @@ def load_library(file_name)
   #get_emoticon
   #binding pry
   organized_lib = {}
-  library.each_key
+  library.each_key do |key|
+    organized_lib["get meaning"]=library[key]
 end
 
 def get_japanese_emoticon
