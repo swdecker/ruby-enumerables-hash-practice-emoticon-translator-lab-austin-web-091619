@@ -7,6 +7,7 @@ def load_library(file_name)
   library = YAML.load_file(file_name)
   #get_meaning
   #get_emoticon
+  binding pry
 end
 
 def get_japanese_emoticon
