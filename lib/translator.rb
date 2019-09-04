@@ -23,6 +23,7 @@ def get_japanese_emoticon(file, emoticon)
   #library.find(emoticon) do 
     
   #end
+  return "Sorry, that emoticon was not found" if !library[:get_emoticon][emoticon]
   japanese_emote = library[:get_emoticon][emoticon]
 end
 
