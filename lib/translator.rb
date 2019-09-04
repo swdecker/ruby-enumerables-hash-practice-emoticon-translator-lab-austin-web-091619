@@ -13,6 +13,7 @@ def load_library(file_name)
     organized_lib[:get_meaning][library[key][1]]= key
     organized_lib[:get_emoticon][library[key][0]] = key
   end
+  organized_lib
 end
 
 def get_japanese_emoticon
