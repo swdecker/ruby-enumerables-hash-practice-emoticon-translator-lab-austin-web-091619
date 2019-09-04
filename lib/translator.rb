@@ -8,6 +8,8 @@ def load_library(file_name)
   #get_meaning
   #get_emoticon
   #binding pry
+  organized_lib = {}
+  library.each_key
 end
 
 def get_japanese_emoticon
