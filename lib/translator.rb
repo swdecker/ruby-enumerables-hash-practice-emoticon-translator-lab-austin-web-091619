@@ -5,13 +5,13 @@ require "yaml"
 def load_library(file_name)
   # code goes here
   library = YAML.load_file("#{file_name}")
-  #get_meaning is a japanese emote
-  #get_emoticon is the american emoticon
+  #get_meaning is a japanese emote pointing to a description
+  #get_emoticon is the american emoticon ponting to a description
   #binding pry
-  organized_lib = {}
+  organized_lib = {get_meaning: {}, get_emoticon: {}}
   library.each_key do |key|
-    organized_lib["get meaning"]=library[key][1]
-    organized_lib["get_emoticon"] = library[key][0]
+    organized_lib[:get_meaning][library[key][1]]= key
+    organized_lib[:get_emoticon][library[key][0]] = key
   end
 end
 
