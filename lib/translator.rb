@@ -19,8 +19,9 @@ end
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   library = load_library(file)
+  binding pry
   library.find(emoticon) do 
-    binding pry
+    
   end
 end
 
