@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, emoticon)
   #library.find(emoticon) do 
     
   #end
-  
+  japanese_emote = library[:get_emoticon][emoticon]
 end
 
 def get_english_meaning(file, emoticon)
