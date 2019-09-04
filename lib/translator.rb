@@ -29,4 +29,5 @@ end
 def get_english_meaning(file, emoticon)
   # code goes here
   library = load_library(file)
+  meaning = library[:get_meaning][emoticon]
 end
