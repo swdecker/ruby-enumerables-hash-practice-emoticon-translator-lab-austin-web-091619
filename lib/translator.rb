@@ -16,7 +16,7 @@ def load_library(file_name)
   organized_lib
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon()
   # code goes here
 end
 
