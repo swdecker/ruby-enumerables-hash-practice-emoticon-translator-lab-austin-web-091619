@@ -1,5 +1,5 @@
 # require modules here
-requires 'pry'
+require 'pry'
 require "yaml"
 library = {}
 def load_library(file_name)
