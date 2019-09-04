@@ -4,7 +4,7 @@ require "yaml"
 library = {}
 def load_library(file_name)
   # code goes here
-  library = YAML.load_file(file_name)
+  library = YAML.load_file("#{file_name)}")
   #get_meaning
   #get_emoticon
   binding pry
