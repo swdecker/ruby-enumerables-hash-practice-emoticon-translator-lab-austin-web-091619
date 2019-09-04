@@ -12,6 +12,7 @@ def load_library(file_name)
   library.each_key do |key|
     organized_lib["get meaning"]=library[key][1]
     organized_lib["get_emoticon"] = library[key][0]
+  end
 end
 
 def get_japanese_emoticon
